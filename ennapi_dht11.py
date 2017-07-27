@@ -55,10 +55,10 @@ while True:
                         print(response.json())
                         time.sleep(15)
                 else:
-                        print('dht11 hatasi')
+                        print('dht11 error')
                         time.sleep(3)
         except:
-                print('internet baglanti hatasi')
+                print('connection problem')
                 time.sleep(3)
 
 
