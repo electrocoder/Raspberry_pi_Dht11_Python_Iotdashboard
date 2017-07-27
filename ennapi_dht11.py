@@ -27,6 +27,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
+# GPIO02
 instance = dht11.DHT11(pin=02)
 
 headers = {'Content-type': 'application/json'}
